@@ -1,3 +1,9 @@
+body {
+  color: crimson;
+  background-color: #158b54;
+  background-image: linear-gradient(132deg, #158b54 0%, #16A085 100%);
+}
+
 main {
   text-align: center;
   vertical-align: center;
