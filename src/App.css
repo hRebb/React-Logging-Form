@@ -7,5 +7,37 @@ body {
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 20vh;
+  line-height: 23vh;
+}
+
+input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background: rgba(157, 24, 24, 0.1);
+  border: none;
+  padding: 15px;
+  background-color: #1202d0;
+  background-color: blanchedalmond;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-radius: 30px;
+  margin-top: -35px;
+}
+
+/* CSS */
+button {
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  color: #1200EA;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 40px;
+  width: 200px;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+  border-radius: 20px;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
 }
